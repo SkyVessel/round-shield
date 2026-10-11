@@ -1,0 +1,7 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+[[mods]]
+modId="round_shield_tests"
+version="1"
+displayName="Round Shield acceptance checks"

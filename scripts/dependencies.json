@@ -1,0 +1,12 @@
+{
+  "iris": {
+    "version": "1.11.2+mc26.1.2",
+    "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/BO8hxvMR/iris-neoforge-1.11.2%2Bmc26.1.2.jar",
+    "sha512": "91d1def2d27568bda73dc2d08f93d9adcb722ab57c92e20a8fe94ab581bc41c84d90973109c3c6d01848710631551ae0518e8d861e4084b956dfe2d21aa23b3f"
+  },
+  "lambdynamiclights": {
+    "version": "4.11.0+26.1.2",
+    "url": "https://cdn.modrinth.com/data/yBW8D80W/versions/NYmekdmx/lambdynamiclights-4.11.0%2B26.1.2.jar",
+    "sha512": "c0022fedcb377dffa6f0540aa2e3924c4c39f86188271d94c3ccce79e512fa326f8ec69054d9ed7dbd433dc5eece887fbd15c87a0eafc78dba2466d01c361930"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "loader": "neoforge:obj",
+  "model": "round_shield_:models/form/e363f146-e991-4943-a551-bd10c951e467.obj",
+  "automatic_culling": false,
+  "flip_v": true,
+  "textures": {
+    "texture": "round_shield_:form/e363f146-e991-4943-a551-bd10c951e467",
+    "particle": "round_shield_:form/e363f146-e991-4943-a551-bd10c951e467"
+  }
+}

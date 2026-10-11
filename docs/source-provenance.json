@@ -1,0 +1,158 @@
+{
+  "sourceProjectRevision": 886,
+  "releaseVersion": "1.0.1-test.1",
+  "minecraft": "26.1.2",
+  "neoforge": "26.1.2.94",
+  "sourceCopiedOn": "2026-10-11",
+  "gameplayChangedDuringPublication": false,
+  "heldShieldObjectTranslation": [
+    0,
+    -0.6875,
+    0
+  ],
+  "lanternStorage": "Any of the five unlocked gear slots",
+  "lanternRenderAnchor": "Original fixed rear waist",
+  "sourceFiles": [
+    {
+      "path": "src/extensions/acceptance/java/studio/round_shield_tests/EquipmentChecks.java",
+      "sha256": "ed1400e9306285b505c630720477e55a7c33d0cb43d111eacea996a2f7791606",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/form-bindings.json",
+      "sha256": "54b590f124376c50bd42a9cea61049fbf7a09dd5d199fe5e2b800b34fb144a4b",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/Equipment.java",
+      "sha256": "2099393518a411538cdb8659d2c6e0b0c7390c5d1f803f72400bb00db0741cc0",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/EquipmentClient.java",
+      "sha256": "da024a7d1609b1c43f93478751772cd1f39a0450442e1a3375773c9e8a9c13c6",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/EquipmentLayer.java",
+      "sha256": "ae83d0cc9faed86f48866f0799e97ec3ed7fb33103e18f96d643e2f879c653ae",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/GearInventory.java",
+      "sha256": "4db85361f94aea8b21c7870e1d61250874eea5f689777971373e58d20fa42ca6",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/GearRules.java",
+      "sha256": "51faa8a22867a9db6cf0c0f409dfacad0199ba4d1d0b0e0cfba96c3375d60b2c",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/LanternLights.java",
+      "sha256": "77f6c331e31eb5f6d1773556797d809b7c077d36ee935b56d87deee34168dde1",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/QuiverArrowProperty.java",
+      "sha256": "8c59dae171ab798b460209eb090985ebb69d0f2e19a244c40a68c3ceab875ca0",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/QuiverItem.java",
+      "sha256": "89179ba5b91623ca3ab80cd363519156725ff800426f4ddb25898b367254af33",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/QuiverMenu.java",
+      "sha256": "0998373c08e672af1a56836b5800fd79b7ca834bbeabdfb9efa34eb9775f101d",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/RoundShieldContent.java",
+      "sha256": "83d8776fa3af53d225c46a29a9bd93be4f21ad685bb3f47fb842aeee44dd26a3",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/CreativeEquipmentMixin.java",
+      "sha256": "ce1061ceddb7c082af341069e58a731ded84031aeb4da114adb174a529c0db2c",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/CreativeScreenMixin.java",
+      "sha256": "7904d3b8b867aa0e9b17efdf65d3177e97c1ea166486b0f52e7fe3b7c57366b3",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/InventoryMenuMixin.java",
+      "sha256": "b84b647549555698ce2fbbcbed8321062de36089cab53dfbe38a81301b8dd38c",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/InventoryScreenMixin.java",
+      "sha256": "94d1704a54849aa7088a9378b92f31963e2393a3052b356822a027160b07818a",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/MountedLanternShaderMixin.java",
+      "sha256": "f6d450cfd626a53aedc8932dfec9a59f3f7e85743f0ff338ea4ff318dbb9ad67",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/ProjectileAmmoMixin.java",
+      "sha256": "53b3c543de429266ba773c965f03acb5dd38521249b44a7bb82d7d5822a0ef32",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/RecipeBookAccessor.java",
+      "sha256": "34e272960066764575f2af44659d2e32f5adfd520e9bf7c79a015fa2ac899c04",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/SlotPositionMixin.java",
+      "sha256": "a479b5b983d8bf21c4f946f97832298276ef2ef243fcfe416576761681efe600",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/VirtualHandMixin.java",
+      "sha256": "864cc5a62cc3e8e46be2f712e8c3ec9c1b04d9823e3660e1b1ba7ab4e648bc12",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/WheelActionsMixin.java",
+      "sha256": "ccbc101a4a4af56a1f421b1a164c0e02df3a1f487c1168d6a485a6dd01e7f0ef",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/WheelAnimationDataMixin.java",
+      "sha256": "125d094fdae821309d4161b8965a68e3980a8b5b3865aca019d7f0ed81569ce0",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/WheelHudMixin.java",
+      "sha256": "098c8a467b60b0dd12862848f053c64a45b2497b963b2130ebc31d5b3fa15f73",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/WheelInventoryMixin.java",
+      "sha256": "dcef9d5767b6f85ce1cf8af52f0ab73301d2c7df4fe5ee6c46627cff15a4a0f7",
+      "matchesProject": true
+    },
+    {
+      "path": "src/extensions/java/studio/round_shield_/mixin/WheelMouseAccess.java",
+      "sha256": "7093de840f1e46970edcf06bc90c0b6f0aa1ecece7de58f52b071ea60affd79b",
+      "matchesProject": true
+    },
+    {
+      "path": "src/generated/java/studio/round_shield_/FormGeneratedMod.java",
+      "sha256": "35326e626dd7ed66573741298f1d7d9ae430f337c5209835d68f375fd83fe0ab",
+      "matchesProject": true
+    },
+    {
+      "path": "src/generated/java/studio/round_shield_/FormMeshSupport.java",
+      "sha256": "aaeadafde77def02c19809beb2dc16c1cf9af4235fbc088977ac4474e2a4c40d",
+      "matchesProject": true
+    }
+  ],
+  "excluded": "FORM runtime, camera scripts, test player profiles, client fixtures, editor-only player documents/meshes/animation exports, worlds, recordings, resource packs, caches and downloaded third-party mod binaries"
+}

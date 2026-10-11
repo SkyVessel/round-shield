@@ -1,0 +1,98 @@
+{
+  "loader": "neoforge:obj",
+  "model": "round_shield_:models/item/round_shield_held.obj",
+  "automatic_culling": false,
+  "flip_v": true,
+  "textures": {
+    "texture": "round_shield_:form/e363f146-e991-4943-a551-bd10c951e467",
+    "particle": "round_shield_:form/e363f146-e991-4943-a551-bd10c951e467"
+  },
+  "gui_light": "front",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -135,
+        25.000000000000014,
+        -180
+      ],
+      "translation": [
+        -3.4899999999999993,
+        11.000000000000002,
+        -2.0000000000000018
+      ],
+      "scale": [
+        0.9999999999999999,
+        0.9999999999999998,
+        0.9999999999999999
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -135.17282895018755,
+        10.335496341597437,
+        -176.78686885785032
+      ],
+      "translation": [
+        10.639565129247568,
+        8.551186837904906,
+        0.20508669490248654
+      ],
+      "scale": [
+        0.9999999992046475,
+        0.9999999998115339,
+        1.0000000009838188
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        180,
+        -5
+      ],
+      "translation": [
+        -15,
+        3.25,
+        -11
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        180,
+        -5
+      ],
+      "translation": [
+        5,
+        5,
+        -11
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ]
+    },
+    "gui": {
+      "rotation": [
+        15,
+        -25,
+        -5
+      ],
+      "translation": [
+        2,
+        3,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    }
+  }
+}

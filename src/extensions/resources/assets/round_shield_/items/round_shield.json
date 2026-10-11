@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "round_shield_:item/round_shield_idle_live"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "round_shield_:item/round_shield_blocking_live"
+    }
+  }
+}

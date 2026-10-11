@@ -1,0 +1,16 @@
+{
+  "item.round_shield_.round_shield": "圆盾",
+  "item.round_shield_.quiver": "箭袋",
+  "key.round_shield_.wheel": "装备轮盘（按住）",
+  "screen.round_shield_.wheel": "装备",
+  "container.round_shield_.quiver": "箭袋 · 320 支箭",
+  "tooltip.round_shield_.arrows": "%s / %s 支箭",
+  "message.round_shield_.hand_full": "请先空出一个物品栏位置。",
+  "mount.round_shield_.0": "左背",
+  "mount.round_shield_.1": "右背 · 箭袋",
+  "mount.round_shield_.2": "左腰",
+  "mount.round_shield_.3": "右腰",
+  "mount.round_shield_.4": "后腰 · 提灯",
+  "tooltip.round_shield_.quiver_insert": "物品栏中将普通箭放到箭袋上装入",
+  "tooltip.round_shield_.quiver_eject": "手持右键：吐出一组箭（最多64支）"
+}

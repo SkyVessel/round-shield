@@ -1,0 +1,38 @@
+// Optional lighting APIs are downloaded explicitly for compilation only.
+// They are never bundled into the Round Shield JAR.
+dependencies {
+    compileOnly fileTree(dir: 'libs/compile-only', include: '*.jar')
+}
+
+def irisApi = file('libs/compile-only/iris.jar')
+def lightingApi = file('libs/compile-only/lambdynamiclights-api.jar')
+tasks.named('compileJava') {
+    doFirst {
+        if (!irisApi.exists() || !lightingApi.exists()) {
+            throw new GradleException('Run python3 scripts/prepare-dependencies.py before building.')
+        }
+    }
+}
+
+def releaseVersion = project.mod_version
+tasks.named('processResources') {
+    inputs.property('mod_version', releaseVersion)
+    filesMatching('META-INF/neoforge.mods.toml') { expand(mod_version: releaseVersion) }
+    filesMatching(['**/*.obj.txt', '**/*.mtl.txt']) { name = name.substring(0, name.length() - 4) }
+}
+
+tasks.withType(Jar).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+if (project.hasProperty('gearAcceptance')) {
+    sourceSets.create('acceptance')
+    sourceSets.acceptance.java.srcDirs = ['src/extensions/acceptance/java']
+    sourceSets.acceptance.resources.srcDirs = ['src/extensions/acceptance/resources']
+    sourceSets.acceptance.compileClasspath += sourceSets.main.output + configurations.compileClasspath
+    sourceSets.acceptance.runtimeClasspath += sourceSets.main.output
+    neoForge.addModdingDependenciesTo(sourceSets.acceptance)
+    neoForge.mods { round_shield_tests { sourceSet sourceSets.acceptance } }
+    neoForge.runs { gameTestServer { type = 'gameTestServer'; gameDirectory = file('run-gear-tests') } }
+}

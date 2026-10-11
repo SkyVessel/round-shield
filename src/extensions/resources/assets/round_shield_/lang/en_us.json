@@ -1,0 +1,16 @@
+{
+  "item.round_shield_.round_shield": "Round Shield",
+  "item.round_shield_.quiver": "Quiver",
+  "key.round_shield_.wheel": "Equipment wheel (hold)",
+  "screen.round_shield_.wheel": "Equipment",
+  "container.round_shield_.quiver": "Quiver · 320 arrows",
+  "tooltip.round_shield_.arrows": "%s / %s arrows",
+  "message.round_shield_.hand_full": "Free an inventory slot before drawing this item.",
+  "mount.round_shield_.0": "Left back",
+  "mount.round_shield_.1": "Right back · Quiver",
+  "mount.round_shield_.2": "Left hip",
+  "mount.round_shield_.3": "Right hip",
+  "mount.round_shield_.4": "Rear waist · Lantern",
+  "tooltip.round_shield_.quiver_insert": "Click the quiver with ordinary arrows to fill it",
+  "tooltip.round_shield_.quiver_eject": "Use in hand: drop one stack (up to 64 arrows)"
+}

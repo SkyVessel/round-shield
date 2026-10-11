@@ -1,0 +1,15 @@
+{
+  "version": "1.0.1-test.1",
+  "build": "passed",
+  "shaderApis": "compiled against public Iris 1.11.2 and LambDynamicLights 4.11.0",
+  "heldShieldVertices": 2256,
+  "heldShieldMaxVertexError": 5.551115123125783e-17,
+  "jarSha256": "c1ccfbb61f6a25ed0e2ecef50a5db40530acf65d226bf39dbdd6c2a13d849703",
+  "jarBytes": 237576,
+  "inGameVisualTest": "Not rerun for this publication",
+  "gameTests": {
+    "passed": 22,
+    "customEquipmentTests": 21,
+    "neoForgeBaselineTests": 1
+  }
+}

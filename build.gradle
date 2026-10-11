@@ -1,0 +1,15 @@
+plugins { id 'java-library'; id 'net.neoforged.moddev' version '2.0.147' }
+version = mod_version
+group = mod_group_id
+base { archivesName = mod_id }
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+sourceSets.main.java.srcDirs = ['src/generated/java', 'src/extensions/java']
+sourceSets.main.resources.srcDirs = ['src/generated/resources', 'src/extensions/resources']
+neoForge {
+ version = project.neo_version
+ runs { client { client() } }
+ mods { "round_shield_" { sourceSet(sourceSets.main) } }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+
+if (file('src/extensions/build.gradle').exists()) apply from: 'src/extensions/build.gradle'
